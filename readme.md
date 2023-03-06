@@ -15,7 +15,7 @@ uni-app提供了多种环境的启动方式，可以根据`package.json`的`scri
 
 比如编译微信小程序的方式
 
-```
+```sh
 pnpm run dev:mp-weixin
 ```
 
@@ -32,3 +32,14 @@ pnpm run dev:mp-weixin
 - [vue3 官方文档](https://cn.vuejs.org/)
 - [vitejs 官方文档](https://cn.vitejs.dev/)
 - [微信小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+
+
+## 关于git commit 的格式
+git commit的message 做了格式验证，请参照以下的格式进行提交
+
+```sh
+git commit -m 'feat: 我增加了一个功能'
+git commit -m 'fix: 修复了某个bug'
+git commit -m 'docs: 文档变更'
+git commit -m 'style: 样式变更'
+```
